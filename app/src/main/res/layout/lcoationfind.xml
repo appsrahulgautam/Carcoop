@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="10"
+    tools:context=".Activity.GetLocationOfUser">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get user location in lat,lng and get its address in string like - XYZ STREET, MN ROAD, AC CITY, DEF COUNTRY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Make this COMPULSARY STEP TO OPEN THE APP. If any info is missing, show permisions dialog." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automatically kill page when done. NO BUTTON SHOULD BE IN THIS PAGE. Keep showing a beautiful UI here." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="movenext"
+        android:text="MOVE NEXT"
+        tools:ignore="OnClick" />
+</LinearLayout>

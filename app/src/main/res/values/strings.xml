@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">CarCoop Emergency Assist</string>
+
+    <!--Error's -->
+    <string name="errorFullname">Full Name Can\'t Be Empty</string>
+    <string name="errornamesmall">User Name Should Not Be Less Them 3 Character</string>
+    <string name="errorcarReg_number">Car Registration Number Can\'t Be Empty</string>
+    <string name="erroronlynumber">Car Registration Number Can\'t Be Character</string>
+    <string name="errorcarBrand">Car Make(Brand) Can\'t Be Empty</string>
+    <string name="errorcarModel">Car Model Can\'t Be Empty</string>
+    <string name="errornoInternet">Please Check Your Internet Connection</string>
+    <string name="erroremail">Please Enter A Valid Email Address</string>
+
+
+    <!--message-->
+    <string name="pleaseWaitLocation">Please Wait Your Helper Need Your Location.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+
+
+    <!--    profile fragment title-->
+    <string name="fullname">Full Name</string>
+    <string name="vehicleRegnumber">Vehicle Registration Number</string>
+    <string name="carmake_brand">Car Make (Brand)</string>
+    <string name="carmodel">Car Model</string>
+    <string name="location_datail">Location</string>
+    <string name="Email">Email</string>
+    <string name="otherdriver_detail">Other Driver Detail </string>
+    <string name="licence_no">Licence Number</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="homeaddress">Home Address</string>
+
+
+    <!--    Home fragment-->
+    <string name="callfragment">CALL EMERGENCY</string>
+    <string name="pressthebutton">Press The Button To Ask For <br /> Help In Case Of Emergency</string>
+    <string name="btntxt">GET\nHELP</string>
+
+
+    <!--    Emergency details layout-->
+    <string name="insureance">Insurance No.</string>
+    <string name="imageupload">Image Upload</string>
+    <string name="videoupload">Video Upload</string>
+    <string name="country">Country</string>
+    <string name="admin">State</string>
+    <string name="location">Location</string>
+    <string name="emgbtn">SEND</string>
+
+
+    <!--Emergency errors-->
+    <string name="nameerror">Name File Must Be Field.</string>
+    <string name="vechicleerror">Please Provide Your Vehicle Registration Number.</string>
+    <string name="carbranderror">Please Provide Your Car Brand. </string>
+    <string name="carmodelerror">Please Provide Your Car Model. </string>
+    <string name="insuranceerror">Please Provide Your Insurance No.</string>
+    <string name="locationerror">Please Provide Your Location.</string>
+    <string name="imageuriserror">Please Provide Your Emergency Images. </string>
+    <string name="videoerror">Please Provide Your Emergency Video.</string>
+
+    <!--other driver detail error-->
+    <string name="errorotherdrivername">Please Provide Other Driver Name.</string>
+    <string name="errorotherdriverlicence">Please Provide Other Driver Licence Number.</string>
+    <string name="errorotherdriverinsurance">Please Provide Other Driver Insurance No.</string>
+    <string name="errorotherdrivercarmake">Please Provide Other Driver Car Brand.</string>
+    <string name="errorotherdrivercarmodel">Please Provide Other Driver Car Model.</string>
+    <string name="errorotherdrivervecRegno">Please Provide Other DriverVehicle Registration Number.</string>
+    <string name="errorotherdrivermobilenumber">Please Provide Other Driver Mobile Number.</string>
+    <string name="errorotherdriverhomeaddress">Please Provide Other Driver Home Address.</string>
+    <string name="validmobilenumber">Please Provide Other Driver Valid Mobile Number.</string>
+    <string name="otherdriverdetailcompulsoryerror">Please Provide Other Driver Details</string>
+
+
+    <!--History Fragment -->
+    <string name="noemergency">Nothing To Show</string>
+    <string name="hereisyourhistory">Here Are Your List of Emergency Calls.</string>
+
+
+    <!--dialog box-->
+    <string name="deletedialog">Are You Sure You Want To Delete This History?</string>
+
+
+    <!--    Emergency number text-->
+    <string name="roadsideassist">RoadSide Assist(1800 651 111)</string>
+    <string name="carcoop_helpline">Carcoop HelpLine(0499 898 983)</string>
+    <string name="police">Police</string>
+    <string name="fire">Fire</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="emergencynumber">Emergency Number(000)</string>
+
+    <!--emergency layout load message-->
+    <string name="helploading">Sending You A Help, Please Wait</string>
+
+    <!--toolbar title-->
+    <string name="helpme">Help Me</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="aboutus">About Us</string>
+
+
+    <!--Edit Details-->
+    <string name="updatedetail">Your Details Are Updated</string>
+
+
+    <!--about us detail-->
+    <string name="aboutusdetail">
+CarCoop provides easy and affordable rent-to-own vehicle solutions for Australians who are currently credit challenged
+CarCoop simplifies the rent-to-own car market by providing low deposit, packaged solutions which include Comprehensive Insurance, Registration, CTP Insurance, Roadside Assistance plus 1-Year of Scheduled Servicing.
+We understand that having a bad credit history can make it difficult to get a car so we focus on where you are now and not where you have been.
+We don\'t do credit checks, we do second chances.
+CarCoop offers a 2-year rent-to-own agreement with options to either return, upgrade, or own the car at the end.
+In addition to CarCoop\'s impressive services we are very proud of the professional people working behind the scenes to ensure that all clients are given the same opportunity to own the car that they need.
+Get a second chance with CarCoop, your rent-to-own car specialists.
+</string>
+    <string name="gps_not_found_title">Gps Not Found</string>
+    <string name="gps_not_found_message">Do you want to enable</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+
+</resources>

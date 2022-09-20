@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="#03A9F4" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#FA766C" />
+        </shape>
+    </item>
+
+    <!--When Button is not enabled -->
+    <!--    <item android:state_enabled="false" android:drawable="@drawable/circle_shape" />-->
+    <!--    &lt;!&ndash;When Button is in pressed state &ndash;&gt;-->
+    <!--    <item android:state_pressed="true" android:drawable="@drawable/circle_shape_deselect" />-->
+    <!--    &lt;!&ndash;When Button is in selected state &ndash;&gt;-->
+    <!--&lt;!&ndash;    <item android:state_selected="true" android:color="#fabcff" />&ndash;&gt;-->
+    <!--&lt;!&ndash;    &lt;!&ndash;Default Background Color &ndash;&gt;&ndash;&gt;-->
+    <!--    <item android:drawable="@drawable/circle_shape" />-->
+
+</selector>

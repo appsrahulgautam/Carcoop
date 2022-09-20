@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="21dp"
+            android:layout_toStartOf="@+id/emgNumber000"
+            android:layout_toLeftOf="@id/emgNumber000"
+            android:gravity="center"
+            android:text="@string/emergencynumber"
+            android:textColor="@color/secondary" />
+
+
+        <ImageView
+            android:id="@+id/emgNumber000"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/circle_shape"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_call"
+            android:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <!--    RoadSide Assist-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="21dp"
+            android:layout_toStartOf="@+id/roadsideassist"
+            android:layout_toLeftOf="@id/roadsideassist"
+            android:gravity="center"
+            android:text="@string/roadsideassist"
+            android:textColor="@color/secondary" />
+
+
+        <ImageView
+            android:id="@+id/roadsideassist"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/circle_shape"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_call"
+            android:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <!--Carcoop HelpLine-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/carcoophelp_iv"
+            android:layout_toLeftOf="@id/carcoophelp_iv"
+            android:gravity="center"
+            android:text="@string/carcoop_helpline"
+            android:textColor="@color/secondary" />
+
+
+        <ImageView
+            android:id="@+id/carcoophelp_iv"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/circle_shape"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_call"
+            android:tint="@color/white" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

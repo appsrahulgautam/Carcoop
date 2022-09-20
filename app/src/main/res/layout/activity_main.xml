@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:weightSum="10"
+            tools:context=".IntroActivity">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logo" />
+
+            </FrameLayout>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/fullNameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                app:mtf_backgroundColor="@color/white"
+                app:mtf_image="@drawable/avatar"
+                app:mtf_labelColor="@color/white"
+                app:mtf_openKeyboardOnFocus="true"
+
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Full Name"
+                    android:inputType="textPersonName"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/carRegNumberET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:mtf_backgroundColor="@color/white"
+                app:mtf_image="@drawable/study"
+                app:mtf_labelColor="@color/white"
+
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Vehicle Registration Number"
+                    android:inputType="text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/carbrandET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:mtf_backgroundColor="@color/white"
+                app:mtf_image="@drawable/car"
+                app:mtf_labelColor="@color/white"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Car Make (Brand)"
+                    android:inputType="text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/carmodelET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:mtf_backgroundColor="@color/white"
+                app:mtf_image="@drawable/insurance"
+                app:mtf_labelColor="@color/white"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Car Model"
+                    android:inputType="text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:mtf_backgroundColor="@color/white"
+                app:mtf_image="@drawable/lock"
+                app:mtf_labelColor="@color/black"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Country"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginTop="20dp"-->
+            <!--                    android:background="@color/verylightgray2"-->
+            <!--                    android:gravity="center|start"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:paddingStart="15dp"-->
+            <!--                    android:paddingTop="10dp"-->
+            <!--                    android:paddingEnd="10dp"-->
+            <!--                    android:paddingBottom="10dp">-->
+            <!--                    -->
+            <!--                        <TextView-->
+            <!--                            android:id="@+id/languagestv"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"-->
+            <!--                            android:drawableTint="@color/black"-->
+            <!--                            android:singleLine="true"-->
+            <!--                            android:text="Select Country"-->
+            <!--                            android:textColor="@color/black"-->
+            <!--                            android:textSize="18sp" />-->
+
+            <!--                </LinearLayout>-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="3dp">
+
+                <Button
+                    android:id="@+id/letsStart"
+                    fontPath="fonts/gotham.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/accent"
+                    android:onClick="letsstart"
+                    android:text="LETS START"
+                    android:textColor="@color/white" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                fontPath="fonts/aplight.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="By starting, you mean to agree with our Terms and Conditions and Privacy Policy."
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"></ProgressBar>
+    </FrameLayout>
+
+</ScrollView>
